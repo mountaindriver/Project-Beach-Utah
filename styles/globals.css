@@ -147,6 +147,16 @@ a {
   max-height: 50%;
 }
 
+.main-footer {   
+  background-color: palevioletred;
+  text-align: center;
+}
+
+.main-footer li {
+  display: inline-block;
+  margin: 0 .5em;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

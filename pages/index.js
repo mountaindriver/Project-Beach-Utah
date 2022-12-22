@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from "../components/Header"
 import Carousel from '../components/Carousel'
+import Footer from '../components/Footer'
 import Link from 'next/link'
 // import { Carousel } from 'react-responsive-carousel'
 
@@ -16,6 +17,7 @@ export default function Home() {
           <h2 className='content'>PBU is Utah's first Pro-Level Beach Volleyball Organization, created to suppor the growth of the sport locally & nationally. (this is not the offical website)</h2>
         </section>
        {/* <Carousel /> */}
+       <Footer />
     </>
   )
 }
