@@ -14,7 +14,10 @@ export default function Home() {
       <Header />
         <section className='content-section'>
         <h1 className="title title-large">Project Beach Utah</h1>
-          <h2 className='content'>PBU is Utah's first Pro-Level Beach Volleyball Organization, created to suppor the growth of the sport locally & nationally. (this is not the offical website)</h2>
+        <div className="container container-pink">
+          <h2 className=''>PBU is Utah's first Pro-Level Beach Volleyball Organization, created to suppor the growth of the sport locally & nationally.</h2>
+          <p>this is not the offical website</p>
+        </div>
         </section>
        {/* <Carousel /> */}
        <Footer />

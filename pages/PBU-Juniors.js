@@ -7,7 +7,7 @@ export default function pbuJuniors() {
         <>
             <Header />
             <section className='content-section'>
-                <h1 className="title title-large">PBU-Juniors</h1>
+                <h1 className="title title-large">PBU Juniors</h1>
             </section>
             <Footer />
 

@@ -69,7 +69,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color: #777
+  color: black;
 }
 
 html,
@@ -79,15 +79,20 @@ body {
 }
 
 body {
-  color: rbg(--foreground-rgb);
-  background: linear-gradient(to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url("../public/images/sandbar.png");
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+header {
+  background-color: black;
+  margin: 0;
 }
 
 .nav ul {
   margin: 0;
-  padding: 1em;
+  padding: .5em;
 }
 
 .nav li {
@@ -129,11 +134,9 @@ a {
 }
 
 .content-section {
-  background-color: rgba(0, 0, 0, 0.2);
-  background-image: url("../public/images/sandbar.png");
-  background-blend-mode: multiply;
-  background-size: cover;
-
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .content {
@@ -143,8 +146,42 @@ a {
   margin: 0 auto;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 40em;
+  padding: 2em;
+  margin: 2em;
+  box-shadow: 30px 30px black;
+}
+
+.container li {
+  margin: .5em;
+}
+
+.container-green {
+  background-color: aquamarine;
+}
+
+.container-blue {
+  background-color: deepskyblue;
+}
+
+.container-pink {
+  background-color: palevioletred;
+}
+
 .carousel {
   max-height: 50%;
+}
+
+.btn  {
+  padding: .5em;
+  margin: 0 2em;
+  max-width: 80px;
+  background-color: black;
+  color: white;
 }
 
 .main-footer {   
